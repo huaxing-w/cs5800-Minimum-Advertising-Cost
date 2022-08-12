@@ -31,3 +31,16 @@ yufei.followOne(huaxing)
 g=[huaxing,sisi,yunxiao,yufei]
 t=scc(g)
 t.solve()
+
+
+#test case 3
+aa=User(0)
+bb=User(1)
+cc=User(2)
+dd=User(3)
+aa.followOne(bb)
+bb.followOne(cc)
+cc.followOne(dd)
+
+v=scc([aa,bb,cc,dd])
+v.solve()

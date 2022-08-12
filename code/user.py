@@ -24,24 +24,7 @@ class User:
     def __hash__(self) -> int:
         return hash(self.uid)
 
-# a=User(1)
-# b=User(2)
-# c=User(3)
-# d=User(4)
-# e=User(5)
-# a.followOne(b)
-# a.followOne(c)
-# a.followOne(d)
 
-# print(a)
-# print(b)
-# print(c)
-# print(d)
-# print("====")
-# a.unfollowOne(c)
-# b.removeOneFollower(a)
-# print(a)
-# print(b)
 
 
     
