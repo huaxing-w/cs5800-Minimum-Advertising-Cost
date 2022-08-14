@@ -2,6 +2,7 @@ from follow_network import FollowNetwork
 from random_graph import RandomDirectedGraph
 from typing import Set, List, Tuple
 from user import User
+from synthetic import validate_solution
 
 # import the Twitter data
 dataset_file_path = "out.ego-twitter.txt"
