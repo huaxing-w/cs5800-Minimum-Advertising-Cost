@@ -5,3 +5,5 @@ We want to model the social media platform and see what is the algorithm finding
 
 Problem Simplification:
 Node - each account; Directed Edge - A points to B means A is followed by B
+
+we find the minimum number of influencers by finding all strongly connected components in the graph.
